@@ -25,9 +25,11 @@ body {
 
 /* Logo */
 .logo img{
+    height: auto;
     padding-left: 30px;
     margin: 0 auto;
     width: 100%;
+    max-width: 224px;
 }
 
 /* Search */
@@ -40,13 +42,13 @@ body {
     background-repeat: no-repeat;
     width: 277px;
     height: 21px;
+    margin-right: 8px;
     margin-left: 25px;
     margin-top: 30px;
     background-size: 100% 100%;
 }
 .search-bar-input{
     width: 240px;
-    max-width: 100%;
     height: 21px;
     color: #5c5c5c;
     font-size: 10px;
@@ -71,7 +73,6 @@ body {
     padding:5px 8px;
     margin: 30px 9px;
     width: 53px;
-    min-width: 5.28%;
     height: 20px;
     color: white;
 }
@@ -182,6 +183,8 @@ body {
     background-size: 100% 100%;
     margin-right: 10px;
     margin-top: 17px;
+    padding-right: 12px;
+    margin-top: 17px;
 }
 .tab-wrap ul li:hover{
     background-image: url('../images/activetab.jpg');
@@ -234,19 +237,19 @@ body {
     margin: 16px 0;
 }
 .article-content{
-    max-width: 519px;
+    max-width: 100%;
     border-bottom: 2px solid #d8d8d8;
     padding-top: 16px;
 }
 .user-image{
     float:left;
+    padding-right:10px ;
 }
 .user-image img{
     max-width:70px;
     height: 70px;
 }
 .user-article-content{
-    padding-left: 10px;
     float: left;
     width: 439px;
     max-width: 100%;
@@ -317,8 +320,9 @@ body {
 .footer{
     padding-top: 16px;
     padding-bottom:16px;
-    font-size: 20px;
+    font-size: 13px;
     background-color: #727277;
+    text-align: center;
 }
 
 .footer ul {
@@ -355,8 +359,7 @@ body {
         float: right;
     }
     .search-bar-input{
-        max-width: 95%;
-        /* width: 240px; */
+        width: 240px;
         height: 21px;
         color: #5c5c5c;
         font-size: 10px;
@@ -378,33 +381,12 @@ body {
         padding:5px 8px;
         margin: 30px 9px;
         width: 53px;
-        /* max-width: 100%; */
-        /* min-width: 5.28%; */
         height: 20px;
         color: white;
     }
-    
     .nav-user{
-        display: block;
-        text-align: right;
+        display: none;
     }
-    .nav-user-info{
-        font-size: 15px;
-    }
-    
-    .nav li{
-        list-style: none;
-    }
-    .nav li a{
-        text-decoration: none;
-        color : black;
-        font-size: 11px;
-    }
-    .nav li a:hover{
-        text-decoration: underline;
-    }
-
-
     .navigation{
         display: none;
     }
@@ -437,13 +419,6 @@ body {
     
 }
 @media screen and (min-width:768px) {
-    .container{
-        max-width: 940px;
-    }
-    .main{
-        min-width: 1002px;
-    }
-    
     .search-button{
         display: block;
     }
@@ -530,15 +505,19 @@ body {
     .nav-right ul li a:hover{
         text-decoration: underline;
     }
-    .left-side-content{
-        width: 190px;
-        float: left;
-        height: 584px;
+    .left-side{
+        max-width: 100%;
     }
-    .right-side-content{
-        width: 190px;
+    .left-side-content{
+        width: 22.48%;
+        float: left;
+    }
+    .right-side{
+        display: block;
         float: right;
-        height: 584px;
+    }
+    .video-list{
+        display: none;
     }
     .recent-searches-1,
     .recent-searches-2{
@@ -549,8 +528,8 @@ body {
     }
 
     .main-entry{
-        float: left;
-        max-width: 548px;
+        float: right; 
+        width: 72.7%;
         margin-left: 28px;
         margin-top: 30px;
     }
@@ -561,8 +540,23 @@ body {
     .tab-wrap ul li{
         width: 114px;
     }
+    .tab-wrap ul li{
+        float: left;
+        background-image: url('../images/inactive.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-right: 10px;
+        margin-top: 17px;
+    }
+    
     .article-heading{
         font-size: 13px;
+    }
+    .article-content{
+        width: 100%;
+    }
+    .user-article-content{
+        padding-left: 10px;
     }
     .videos{
         color: #ffffff;
@@ -572,10 +566,57 @@ body {
     .right-side-content ul li a{
         font-size: 11px;
     }
+}
+
+
+@media screen and (min-width:1200px) {
     .container{
         max-width: 940px;
     }
-        .main{
+    .main{
+        min-width: 1002px;
+    }
+    
+    .left-side{
+        width: 748px;
+        float: left;
+    }
+    .left-side-content{
+        width: 180px;
+        float: left;
+    }
+    .right-side{
+        display: block;
+    }
+    .right-side-content{
+        margin-left: 8px;
+        width: 180px;
+        float: right;
+        height: 584px;
+    }
+    .main-entry{
+        float: left;
+        max-width: 530px;
+    }
+
+    .tab-wrap ul li{
+        width: 114px;
+    }
+    .videos{
+        color: #ffffff;
+        font-size: 13px;
+        padding:13px 12px;
+    }
+    .video-list{
+        display: block;
+    }
+    .right-side-content ul li a{
+        font-size: 11px;
+    }
+    .container{
+        max-width: 940px;
+    }
+    .main{
         min-width: 1002px;
     }
 }
