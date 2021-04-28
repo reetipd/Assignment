@@ -257,6 +257,9 @@ body {
 .user-article-content h2{
     margin-top: 7px;
 }
+.user-article-content h2{
+    margin-top: 7px;
+}
 .article-heading{
     font-size: 15px;
     padding-bottom: 7px;
@@ -284,6 +287,9 @@ body {
 }
 .full-content span.focus-green a:hover{
     text-decoration: underline;
+}
+.user-article-content h3{
+    font-size: 12px;
 }
 .new{
     font-size: 10px;
@@ -557,6 +563,9 @@ body {
     }
     .user-article-content{
         padding-left: 10px;
+    }
+    .user-article-content h3{
+        font-size: 10px;
     }
     .videos{
         color: #ffffff;
