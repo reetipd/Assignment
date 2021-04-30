@@ -68,8 +68,22 @@
     .client .large-text h5{
         font-size: 35px;
     }
+    .subscribe button{
+        font-size: 15px;
+    }
     input{
         font-size: 18px;
+    }
+    .form-left,
+    .form-right,
+    .main-bar{
+        margin-bottom: 30px;
+        width: 100%;
+        min-width: 290px;
+        max-width:none ;
+    }
+    .send-message button{
+        padding:18px 28px;
     }
 }
 /*small screens,laptops*/
@@ -111,6 +125,11 @@
     .info p{
         padding-bottom: 12px;
     }
+    .send-message button{
+        font-size: 15px;
+        padding:20px 38px;
+    }
+    
 }
 @media screen and (min-width:1024px) {
     .container-main{
