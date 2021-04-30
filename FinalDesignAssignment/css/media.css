@@ -1,0 +1,359 @@
+@media screen and (min-width:480px) {
+    .hero-btn-part button{
+        padding: 20px 0;
+    }
+    .service-text{
+        font-size: 14px;
+    }
+    .main-text{
+        font-size: 44px;
+    }
+    .small-text{
+        font-size: 18px;
+    }
+    .portfolio .small-text{
+        font-size: 16px;
+    }
+    .nav-portfolio a{
+        font-size: 20px;
+    }
+    .info p{
+        padding-bottom: 8px;
+    }
+    .member-info h4{
+        font-size: 16px;
+    }
+    .member-info h5{
+        font-size:13px;
+    }
+    .member-info p{
+        font-size: 12px;
+    }
+    .mobile-right{
+        margin-bottom: 20px;
+    }
+    .modern-right{
+        padding: 60px 10px 15px 20px;
+    }
+    .modern-right h2{
+        color: #fff;
+        font-size: 30px;
+    }
+    .modern-right h6
+    {
+        font-size: 15px;
+        margin-top: 14px;
+        margin-bottom: 12px;
+        font-weight: normal;
+    }
+    .modern-right p
+    {
+        color: #fff;
+        font-size: 14px;
+        padding:0px;
+    }
+
+    .client-info h6{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .client-info p{
+        color: #fff;
+        font-size: 14px;
+    }
+    .client-info h5{
+        font-size:24px;
+    }
+    .client .large-text h5{
+        font-size: 35px;
+    }
+    input{
+        font-size: 18px;
+    }
+}
+/*small screens,laptops*/
+@media screen and (min-width:768px) {
+    .service-img img{
+        width: 40%;
+    }
+    .mobile-left{
+        float: left;
+        width: 50%;
+        margin: 66px 0;
+        padding-right: 40px;
+    }
+    .mobile-right{
+        float: right;
+        width: 50%;
+        padding-left: 40px;
+    }
+    .mobile-text{
+        margin-top: 70px;
+    }
+    .mobile-text h2{
+        margin-bottom: 40px;
+    }
+    .order-me{
+        margin-top: 35px;
+        padding: 20px;
+    }
+    .portfolio-content{
+        margin-top:35px;
+    }
+    .nav-portfolio{
+        display: inline-block;
+        padding-right: 30px;
+    }
+    .info h3{
+        padding:20px 0;
+    }
+    .info p{
+        padding-bottom: 12px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .container-main{
+        width: 61.41%;
+        margin: 0 auto;
+    }
+    .right-navbar{
+        display: inline-block;
+    }
+    .right-navbar{
+        padding: 30px 0;
+    }
+    .list-header li{
+        display: inline-block;
+        padding: 17px 18px;
+    }
+    .list-header li a:hover{
+        background-color: #5ff1c8;
+        padding:17px 26px;
+        border-radius: 16px;
+    }
+    .list-header .active{
+        background-color: #5ff1c8;
+        padding:17px 26px;
+        border-radius: 16px;
+    }
+    .nav-menu{
+        display: none;
+    }
+
+    .services-content{
+        margin:85px 0;
+    }
+    .service-info-1,
+    .service-info-2,
+    .service-info-3,
+    .service-info-4{
+        text-align: center;
+    }
+    .service-info-1 .title,
+    .service-info-2 .title,
+    .service-info-3 .title,
+    .service-info-4 .title{
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+    .service-text{
+        font-size: 16px;
+        color:#b3b9bc;
+    }
+    .service-info-1{
+        width: 25%;
+    }
+    .service-info-2{
+        width: 25%;
+        padding-right: 38px;
+        padding-left: 0px
+    }
+    .service-info-3{
+        width: 25%;
+    }
+    .service-info-4{
+        width: 25%;
+        float:left;
+        padding-left: 0px;
+        padding-right: 38px;
+    }
+    .service-img img{
+        width: 50%;
+    }
+    .services-button{
+        margin:85px 0;
+        text-align: center;
+    }
+    .services-button button{
+        padding: 20px 55px;
+    }
+    .mobile-right{
+        float: right;
+        width: 50%;
+        padding-left: 0;
+    }
+    .mobile-text{
+        margin-top: 134px;
+    }
+    .mobile-text h2{
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 46px;
+    }
+    .mobile-text p{
+        font-size: 15px;
+        color: #929ba0;
+    }
+    .order-me{
+        border-radius: 12px;
+        background-image: linear-gradient(180deg,#ff6a54,#ff3958);
+        border:none;
+        padding: 25px 55px;
+        font-size: 15px;
+        color: white;
+        margin-top:44px;
+    } 
+    .portfolio-content{
+        margin-bottom: 60px;
+    }
+    .single-desc{
+        width: 33.33%;
+        float: left;
+        max-height: 370px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+    .large-text{
+        padding-top: 35px;
+        margin-bottom: 35px;
+        text-align: center;
+        color: white;
+        font-size: 60px;
+    }
+    .portfolio .small-text{
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    .nav-portfolio{
+        padding-right: 70px;
+    }
+    .single-desc:nth-child(2),
+    .single-desc:nth-child(4),
+    .single-desc:nth-child(6){
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+    .single-content img{
+        width: 50%;
+    }
+    .single-content{
+        width: 25%;
+        padding: 82px 0;
+    }
+    .stat-info h3{
+        font-size: 30px;
+    }
+    .stat-info h4{
+        font-size: 13px;
+    }
+    .team .large-text{
+        font-size: 40px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        color: #3f4244;
+    }
+    .team-members{
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .members{
+        float: left;
+        width: 25%;
+        max-height: 390px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+    .members img{
+        margin-bottom: -6px;
+        width: 100%;
+        height: auto;
+    }
+    .member-info h4{
+        color: #3f4244;
+        font-size: 16px;
+        padding-top: 6px;
+        font-weight: normal;
+    }
+    .member-info h5{
+        color:#ffffff;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .member-info p{
+        color: #3f4244;
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .about-left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        float: left;
+        width: 40%;
+    }
+    .about-left img{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 30px;
+    }
+    .about-right{
+        padding-left: 40px;
+        float: right;
+        width: 60%;
+    }
+    .modern-right{
+        padding: 70px 10px 15px 20px;
+    }
+    .modern-right h2{
+        font-size: 40px;
+    }
+    .modern-right h6
+    {
+        font-size: 22px;
+        margin-top: 18px;
+        margin-bottom: 26px;
+    }
+    .modern-right p
+    {
+        font-size: 18px;
+    }
+    .client-one,
+    .client-two,
+    .client-three{
+        width: 28.7%;
+        /* width: 369px; */
+        /* height: 219px; */
+        padding:60px 30px;
+        float: left;
+    }
+    .client-one,
+    .client-two,
+    .client-three{
+        margin-left: 30px;
+    }
+    .form-left{
+        float: left;
+        max-width: 40%;
+    }
+    .form-right{
+        float: right;
+        max-width: 40%;
+    }
+    .main-bar{
+        width: 100%;
+    }
+    
+}
